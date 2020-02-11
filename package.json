@@ -1,0 +1,27 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "httpster -p 3000"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "Mohammad Amin Khani",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-react": "^7.8.3",
+    "httpster": "^1.0.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5"
+  }
+}
