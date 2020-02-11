@@ -3,3 +3,4 @@
 
 [watch final video!](https://archive.org/details/webpackgithub981122)
 
+[webpack loaders](https://webpack.js.org/loaders/)
