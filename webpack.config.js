@@ -2,7 +2,7 @@ var webpack = require("webpack");
 
 module.exports = {
 		mode: "production",
-		entry: "/Users/shervin/Desktop/webpack-test/src/app/index.js",
+		entry: "/Users/shervin/Desktop/webpack-test/src/app",
 		output: {
 			path:"/Users/shervin/Desktop/webpack-test/dist",
 			filename: "bundle.js",

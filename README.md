@@ -1,6 +1,5 @@
-# webpack-test
-98.11.22 tiny project
+# mern-test
+98.11.22 this is my 1st mern
 
-[watch final video!](https://archive.org/details/webpackgithub981122)
+webpack instead create-react-app
 
-[webpack loaders](https://webpack.js.org/loaders/)
