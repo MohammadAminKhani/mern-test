@@ -2,9 +2,9 @@
   "name": "webpack-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server/index.js",
   "scripts": {
-    "start": "httpster -p 3000"
+    "start": "nodemon -e js --watch src/server"
   },
   "keywords": [
     "react",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@babel/preset-react": "^7.8.3",
     "httpster": "^1.0.4",
+    "nodemon": "^2.0.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2"

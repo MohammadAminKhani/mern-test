@@ -2,9 +2,9 @@ var webpack = require("webpack");
 
 module.exports = {
 		mode: "production",
-		entry: "/Users/shervin/Desktop/webpack-test/src/app",
+		entry: "/Users/shervin/Desktop/mern-test/src/app",
 		output: {
-			path:"/Users/shervin/Desktop/webpack-test/dist",
+			path:"/Users/shervin/Desktop/mern-test/src/server/public",
 			filename: "bundle.js",
 			publicPath: "dist",
 		},
@@ -13,9 +13,9 @@ module.exports = {
 			contentBase:'./',
 			port: 3000,
 		},
-		
-		
-		
+
+
+
 module: {
   rules: [
     {
