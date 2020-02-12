@@ -2,11 +2,11 @@ var webpack = require("webpack");
 
 module.exports = {
 		mode: "production",
-		entry: "/Users/shervin/Desktop/mern-test/src/app",
+		entry: "/Users/shervin/Desktop/mern-test/app",
 		output: {
-			path:"/Users/shervin/Desktop/mern-test/src/server/public",
+			path:"/Users/shervin/Desktop/mern-test/server/public/react",
 			filename: "bundle.js",
-			publicPath: "dist",
+			publicPath: "public",
 		},
 		devServer:{
 			inline: true,
